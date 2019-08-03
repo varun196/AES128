@@ -1,9 +1,5 @@
 from django.db import models
 
-# class Test(object):
-#     def hello(self):
-#         return "Hello World"
-
 # For AESExecutor
 import json
 from collections import namedtuple
@@ -11,7 +7,7 @@ class AESExecutor(object):
     """
     JSON format:
     {
-        "key":"my name is varun",
+        "key":"16 char key here",
         "mode":"e/d",
         "values":[
             "str1","str2"
