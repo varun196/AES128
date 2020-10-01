@@ -11,7 +11,7 @@ Hosted on encryptit.herokuapp.com
 For encryption / decryption, send a POST request to:  
 `encryptit.herokuapp.com/encrypt/`  
 
-Ensure that `Content-Type` is set to `application/json`.  
+Ensure that `Content-type` is set to `application/json`.  
 
 Encryption:
 ```json
